@@ -7,6 +7,27 @@ You need to install Node JS before starting TailWind CSS Download Node JS at nod
   
 **Step-2 Make package.json file**
 ```
-Look! You can see my backticks.
+npm init
 ```
+  
+**Step-3 install tailwind and postcss**
+```
+npm install -D tailwindcss postcss-cli autoprefixer
+```
+  
+**Step-4 make postcss.config.js**
+```
+touch postcss.config.js
+```
+  
+**Step-5 add base config to postcss.config.js**
+```
+module.exports = {
+    plugins: {
+      tailwindcss: {},
+      autoprefixer: {},
+    }
+  }
+```
+
 
