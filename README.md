@@ -81,7 +81,7 @@ touch ./index.html
   
 ```
 **Step-14: run tailwind compile to css taske**
-
+```
 npm run startcss
 ```
 
