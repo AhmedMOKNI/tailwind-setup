@@ -79,8 +79,9 @@ touch ./index.html
 ```
 <link rel="stylesheet" href="./public/assets/css/style.css">```
   
-**Step-14: run tailwind compile to css taske**
 ```
+**Step-14: run tailwind compile to css taske**
+
 npm run startcss
 ```
 
